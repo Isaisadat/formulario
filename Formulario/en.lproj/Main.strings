@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Made with love\nv.1.0"; ObjectID = "3RC-S5-kIM"; */
+"3RC-S5-kIM.text" = "Made with love\nv.1.0";
+
+/* Class = "UILabel"; text = "Rise \nReal Estate"; ObjectID = "MrL-SV-kfF"; */
+"MrL-SV-kfF.text" = "Rise \nReal Estate";
+
+/* Class = "UIButton"; configuration.title = "Vamos a comenzar"; ObjectID = "fgi-2J-xPD"; */
+"fgi-2J-xPD.configuration.title" = "Vamos a comenzar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fgi-2J-xPD"; */
+"fgi-2J-xPD.normalTitle" = "Button";
