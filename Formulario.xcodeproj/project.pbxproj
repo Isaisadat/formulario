@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA2C08628B7B825006F581F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2C08528B7B825006F581F /* ViewController2.swift */; };
 		3FC85F6728B54C2900040B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC85F6628B54C2900040B3E /* AppDelegate.swift */; };
 		3FC85F6928B54C2900040B3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC85F6828B54C2900040B3E /* SceneDelegate.swift */; };
 		3FC85F6B28B54C2900040B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC85F6A28B54C2900040B3E /* ViewController.swift */; };
 		3FC85F6E28B54C2900040B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC85F6C28B54C2900040B3E /* Main.storyboard */; };
 		3FC85F7028B54C2B00040B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC85F6F28B54C2B00040B3E /* Assets.xcassets */; };
-		3FC85F7328B54C2B00040B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC85F7128B54C2B00040B3E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA2C08528B7B825006F581F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3FA3ECC828B6D8A200B0E887 /* Ejer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Ejer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3FC85F6328B54C2900040B3E /* Formulario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC85F6628B54C2900040B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC85F6828B54C2900040B3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FC85F6A28B54C2900040B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FC85F6D28B54C2900040B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC85F6F28B54C2B00040B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FC85F7228B54C2B00040B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC85F7428B54C2B00040B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +62,9 @@
 				3FC85F6A28B54C2900040B3E /* ViewController.swift */,
 				3FC85F6C28B54C2900040B3E /* Main.storyboard */,
 				3FC85F6F28B54C2B00040B3E /* Assets.xcassets */,
-				3FC85F7128B54C2B00040B3E /* LaunchScreen.storyboard */,
 				3FC85F7428B54C2B00040B3E /* Info.plist */,
+				3FA3ECC828B6D8A200B0E887 /* Ejer.playground */,
+				3FA2C08528B7B825006F581F /* ViewController2.swift */,
 			);
 			path = Formulario;
 			sourceTree = "<group>";
@@ -125,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC85F7328B54C2B00040B3E /* LaunchScreen.storyboard in Resources */,
 				3FC85F7028B54C2B00040B3E /* Assets.xcassets in Resources */,
 				3FC85F6E28B54C2900040B3E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC85F6B28B54C2900040B3E /* ViewController.swift in Sources */,
+				3FA2C08628B7B825006F581F /* ViewController2.swift in Sources */,
 				3FC85F6728B54C2900040B3E /* AppDelegate.swift in Sources */,
 				3FC85F6928B54C2900040B3E /* SceneDelegate.swift in Sources */,
 			);
@@ -153,14 +155,6 @@
 				3FC85F6D28B54C2900040B3E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FC85F7128B54C2B00040B3E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FC85F7228B54C2B00040B3E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
